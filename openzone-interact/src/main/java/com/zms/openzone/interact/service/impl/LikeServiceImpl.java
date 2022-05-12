@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * @author: zms
- * @create: 2022/2/7 20:11
+ * @create: 2022/2/7 20:11  pushtest
  */
 @Service
 public class LikeServiceImpl implements LikeService {
