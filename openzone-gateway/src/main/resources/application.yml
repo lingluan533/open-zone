@@ -1,0 +1,27 @@
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: openzone-member
+#          uri: lb://openzone-member
+#          predicates:
+#            - Host=member.openzone.com
+#        - id: openzone-interact
+#          uri: lb://openzone-interact
+#          predicates:
+#            - Host=openzone.com,interact.openzone.com
+#        - id: openzone-search
+#          uri: lb://openzone-search
+#          predicates:
+#            - Host=search.openzone.com
+#        - id: openzone-auth
+#          uri: lb://openzone-auth
+#          predicates:
+#            - Host=auth.openzone.com
+#        - id: openzone-message
+#          uri: lb://openzone-message
+#          predicates:
+#            - Host=message.openzone.com
+#
+#server:
+#  port: 99

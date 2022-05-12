@@ -1,0 +1,48 @@
+#spring:
+#  application:
+#    name: openzone-interact
+#  datasource:
+#    username: root
+#    password: root
+#    url: jdbc:mysql://192.168.56.10:3306/openzone?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+#    driver-class-name: com.mysql.jdbc.Driver
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+#  rabbitmq:
+#    host: 192.168.56.10
+#    port: 5672
+#    virtual-host: /
+#  redis:
+#    port: 6379
+#    host: 192.168.56.10
+#  session:
+#    store-type: redis
+#    timeout: 30m
+#server:
+#  port: 5988
+##日志
+#logging:
+#  level:
+#    com.zms.openzone: error
+#    com.alibaba.nacos.client.naming: WARN
+#openzone:
+#  thread:
+#    core-size: 20
+#    max-size: 200
+#    keep-alive-time: 10
+#
+#mybatis-plus:
+#  mapper-locations: classpath:/mapper/**/*.xml
+#  global-config:
+#    db-config:
+#      id-type: auto
+#      logic-delete-value: 1
+#      logic-not-delete-value: 0
+#feign:
+#  client:
+#    config:
+#      default:
+#        read-timeout: 600000
+#        connect-timeout: 600000

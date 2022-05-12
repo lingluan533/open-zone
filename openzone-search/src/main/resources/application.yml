@@ -1,0 +1,19 @@
+#spring:
+#  application:
+#    name: openzone-search
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+#  redis:
+#    port: 6379
+#    host: 192.168.56.10
+#server:
+#  port: 3988
+##日志
+#logging:
+#  level:
+#    com.zms.openzone: error
+#    com.alibaba.nacos.client.naming: WARN
+#
+#
